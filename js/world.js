@@ -41,7 +41,7 @@ async function city(cityName) {
     if (!box) {
       box = document.createElement("div");
       box.className = "box";
-      cityBox.appendChild(box);
+      cityBox.appendChild(box)
     }
 
     let weatherBox = document.createElement("div");
