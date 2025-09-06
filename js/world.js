@@ -45,7 +45,7 @@ async function city(cityName) {
     }
 
     let weatherBox = document.createElement("div");
-    weatherBox.className = "weather-box";
+    weatherBox.className = "weather-box"
 
     let nameDiv = document.createElement("div");
     nameDiv.className = "name";
